@@ -7,18 +7,48 @@ public class PlayerMovement : MonoBehaviour
     public float speed =5;
     public Rigidbody2D rig;
     public float jumpHeight = 5;
+    public bool isFlip = false;
+    public bool onGround;
+
     // Start is called before the first frame update
     void Start()
     {
+        rig = GetComponent<Rigidbody2D>();
+        rig.gravityScale = 3;
     }
 
     // Update is called once per frame
     void Update()
     {
         transform.Translate(Vector3.right * speed*Time.deltaTime);
-        if (Input.GetAxis("Jump") > 0)
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-            transform.Translate(Vector3.up * jumpHeight * Time.deltaTime);
+            if (!onGround) return;
+            rig.gravityScale *= -1;//change gravity scale of rigibody
+
+            Invoke("FlipPlayer", 0.2f);
         }
     }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.gameObject.tag == "Ground")
+        {
+            onGround = true;
+        }
+    }
+
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Ground")
+        {
+            onGround = false;
+        }
+    }
+
+    public void FlipPlayer()
+    {
+        transform.Rotate(Vector3.right * -180f);
+    }
+         
 }

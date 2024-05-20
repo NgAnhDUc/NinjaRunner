@@ -415,11 +415,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 519420028}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d45be8bee4e6b1449a933dbea78aae1, type: 3}
+  m_Script: {fileID: 11500000, guid: 9aea5abeab6883d45966884c83c1dc54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 0}
-  offsetX: 0
+  playerTransform: {fileID: 0}
+  smoothSpeed: 0.01
+  delayDistance: 5
+  offset: 8
 --- !u!1 &585505810
 GameObject:
   m_ObjectHideFlags: 0
@@ -2346,6 +2348,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98fcd4c8f67064245af8e6e90d8bcd02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dashDistance: 3
   dashEffectGO: {fileID: 0}
   dashAnim: {fileID: 0}
 --- !u!1 &1127084703

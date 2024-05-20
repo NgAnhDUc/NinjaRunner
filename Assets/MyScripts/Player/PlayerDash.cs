@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class PlayerDash : MonoBehaviour
 {
-    
+    public float dashDistance =3;
     void Update()
     {
         if(Input.GetKeyDown(KeyCode.LeftShift))
         {
-            transform.Translate(Vector2.right * 5.0f);
+            transform.Translate(Vector2.right * dashDistance);
         }
     }
 }

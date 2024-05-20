@@ -41,3 +41,15 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Background
+    uniqueID: 1055382997
+    locked: 0
+  - name: Terrain
+    uniqueID: 4255211703
+    locked: 0
+  - name: Player
+    uniqueID: 1780830655
+    locked: 0
+  - name: New Layer 4
+    uniqueID: 3542578847
+    locked: 0

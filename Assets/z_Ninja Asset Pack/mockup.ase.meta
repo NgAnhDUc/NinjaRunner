@@ -1,0 +1,1707 @@
+fileFormatVersion: 2
+guid: c9a504c0c23232743b6dff15eb7890c8
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: mockup_Frame_0
+    originalName: 
+    pivot: {x: 0.30188683, y: 0.09174312}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 636
+      height: 218
+    spriteID: fcfcad93ae911e7428e798f5b628a61a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: mockup_Frame_1
+    originalName: 
+    pivot: {x: 0.30188683, y: 0.09174312}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 648
+      y: 4
+      width: 636
+      height: 218
+    spriteID: b60fe7c07f0b2364c8369dc7121be44b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 648, y: 4}
+  - name: mockup_Frame_2
+    originalName: 
+    pivot: {x: 0.30188683, y: 0.09174312}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1292
+      y: 4
+      width: 636
+      height: 218
+    spriteID: a017f61b27b94a84397df060623d55dc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1292, y: 4}
+  - name: mockup_Frame_3
+    originalName: 
+    pivot: {x: 0.30188683, y: 0.09174312}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1936
+      y: 4
+      width: 636
+      height: 218
+    spriteID: 35fd2cbb81d49ae4ba9ff257f8e82457
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1936, y: 4}
+  - name: mockup_Frame_4
+    originalName: 
+    pivot: {x: 0.30188683, y: 0.09174312}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2580
+      y: 4
+      width: 636
+      height: 218
+    spriteID: 3707d422be3be3449b100dbd1a84ae62
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2580, y: 4}
+  - name: mockup_Frame_5
+    originalName: 
+    pivot: {x: 0.30188683, y: 0.09174312}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3224
+      y: 4
+      width: 636
+      height: 218
+    spriteID: 9ffe0db45f0be9b448a7f1f95aa856eb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3224, y: 4}
+  - name: mockup_Frame_6
+    originalName: 
+    pivot: {x: 0.30188683, y: 0.09174312}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 230
+      width: 636
+      height: 218
+    spriteID: 8fd10edf12d66dc4cbfe870d2a606729
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 230}
+  - name: mockup_Frame_7
+    originalName: 
+    pivot: {x: 0.30188683, y: 0.09174312}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 648
+      y: 230
+      width: 636
+      height: 218
+    spriteID: fdfef74212d0aac4d8f8b0b46cec1cf6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 648, y: 230}
+  - name: mockup_Frame_8
+    originalName: 
+    pivot: {x: 0.30188683, y: 0.09174312}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1292
+      y: 230
+      width: 636
+      height: 218
+    spriteID: c6398471e053eaa478c129f2d54041a6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1292, y: 230}
+  - name: mockup_Frame_9
+    originalName: 
+    pivot: {x: 0.30188683, y: 0.09174312}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1936
+      y: 230
+      width: 636
+      height: 218
+    spriteID: ad0bf25db8da6c5479e1342bf9ef05ff
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1936, y: 230}
+  - name: mockup_Frame_10
+    originalName: 
+    pivot: {x: 0.30188683, y: 0.09174312}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2580
+      y: 230
+      width: 636
+      height: 218
+    spriteID: 472bcdaaa65fbe447b4457abc59460bc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2580, y: 230}
+  - name: mockup_Frame_11
+    originalName: 
+    pivot: {x: 0.30188683, y: 0.09174312}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3224
+      y: 230
+      width: 636
+      height: 218
+    spriteID: b52e10976034c0849902d978bdd27c42
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3224, y: 230}
+  - name: mockup_Frame_12
+    originalName: 
+    pivot: {x: 0.30188683, y: 0.09174312}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 456
+      width: 636
+      height: 218
+    spriteID: 93648e6c9447eef4a8138b8bf24dbaa3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 456}
+  - name: mockup_Frame_13
+    originalName: 
+    pivot: {x: 0.30188683, y: 0.09174312}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 648
+      y: 456
+      width: 636
+      height: 218
+    spriteID: b140da53c388072429e4d10abc848ec2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 648, y: 456}
+  - name: mockup_Frame_14
+    originalName: 
+    pivot: {x: 0.30188683, y: 0.09174312}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1292
+      y: 456
+      width: 636
+      height: 218
+    spriteID: a8ab055102ac32e47bc5d6dfbba95525
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1292, y: 456}
+  - name: mockup_Frame_15
+    originalName: 
+    pivot: {x: 0.30188683, y: 0.09174312}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1936
+      y: 456
+      width: 636
+      height: 218
+    spriteID: 9fcf85261eab1ad4fad45f9d806386b6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1936, y: 456}
+  - name: mockup_Frame_16
+    originalName: 
+    pivot: {x: 0.30188683, y: 0.09174312}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2580
+      y: 456
+      width: 636
+      height: 218
+    spriteID: 42139e87033d43d49b2a9ddd2c71a8dd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2580, y: 456}
+  - name: mockup_Frame_17
+    originalName: 
+    pivot: {x: 0.30188683, y: 0.09174312}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3224
+      y: 456
+      width: 636
+      height: 218
+    spriteID: 82005adba639fc844a9562b399367a4a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3224, y: 456}
+  - name: mockup_Frame_18
+    originalName: 
+    pivot: {x: 0.30188683, y: 0.09174312}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 682
+      width: 636
+      height: 218
+    spriteID: 11265a6a8c2739d428fb185a8c749cb9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 682}
+  - name: mockup_Frame_19
+    originalName: 
+    pivot: {x: 0.30188683, y: 0.09174312}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 648
+      y: 682
+      width: 636
+      height: 218
+    spriteID: 45668a8e11125c8428209fed4cd58ee6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 648, y: 682}
+  - name: mockup_Frame_20
+    originalName: 
+    pivot: {x: 0.30188683, y: 0.09174312}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1292
+      y: 682
+      width: 636
+      height: 218
+    spriteID: a46d219c0f7f88d4fb24d61e6a13c440
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1292, y: 682}
+  - name: mockup_Frame_21
+    originalName: 
+    pivot: {x: 0.30188683, y: 0.09174312}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1936
+      y: 682
+      width: 636
+      height: 218
+    spriteID: 959763abc6c491f41a1d521073d07c0a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1936, y: 682}
+  - name: mockup_Frame_22
+    originalName: 
+    pivot: {x: 0.30188683, y: 0.09174312}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2580
+      y: 682
+      width: 636
+      height: 218
+    spriteID: d9441fe9299ac3e438ae396368684ffc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2580, y: 682}
+  - name: mockup_Frame_23
+    originalName: 
+    pivot: {x: 0.30188683, y: 0.09174312}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3224
+      y: 682
+      width: 636
+      height: 218
+    spriteID: cb4a434c8dfa43c49936c399f1231345
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3224, y: 682}
+  - name: mockup_Frame_24
+    originalName: 
+    pivot: {x: 0.30188683, y: 0.09174312}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 908
+      width: 636
+      height: 218
+    spriteID: 051641cfd333fcf4e85103e9da038c27
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 908}
+  - name: mockup_Frame_25
+    originalName: 
+    pivot: {x: 0.30188683, y: 0.09174312}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 648
+      y: 908
+      width: 636
+      height: 218
+    spriteID: 5d02d8fb71c9fae40939ee6bfafc47a6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 648, y: 908}
+  - name: mockup_Frame_26
+    originalName: 
+    pivot: {x: 0.30188683, y: 0.09174312}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1292
+      y: 908
+      width: 636
+      height: 218
+    spriteID: b0804ef54c4550c48ba601fe7e5d019f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1292, y: 908}
+  - name: mockup_Frame_27
+    originalName: 
+    pivot: {x: 0.30188683, y: 0.09174312}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1936
+      y: 908
+      width: 636
+      height: 218
+    spriteID: 4ffa577cd1af01f4c82930ac07f60b26
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1936, y: 908}
+  - name: mockup_Frame_28
+    originalName: 
+    pivot: {x: 0.30188683, y: 0.09174312}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2580
+      y: 908
+      width: 636
+      height: 218
+    spriteID: 049e25e2052ac6f4e9cd7520de37b980
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2580, y: 908}
+  - name: mockup_Frame_29
+    originalName: 
+    pivot: {x: 0.30188683, y: 0.09174312}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3224
+      y: 908
+      width: 636
+      height: 218
+    spriteID: d5e0053ee72554d4cbdbf1ae1d74542c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3224, y: 908}
+  - name: mockup_Frame_30
+    originalName: 
+    pivot: {x: 0.30188683, y: 0.09174312}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1134
+      width: 636
+      height: 218
+    spriteID: c977fe1e7d5f11e4989e29a6f21198b3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1134}
+  - name: mockup_Frame_31
+    originalName: 
+    pivot: {x: 0.30188683, y: 0.09174312}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 648
+      y: 1134
+      width: 636
+      height: 218
+    spriteID: 53fbeb7d6258d0b44a90d37b5bf74092
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 648, y: 1134}
+  - name: mockup_Frame_32
+    originalName: 
+    pivot: {x: 0.30188683, y: 0.09174312}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1292
+      y: 1134
+      width: 636
+      height: 218
+    spriteID: 45be31e855d58564b8bb87f227b4a6c9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1292, y: 1134}
+  - name: mockup_Frame_33
+    originalName: 
+    pivot: {x: 0.30188683, y: 0.09174312}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1936
+      y: 1134
+      width: 636
+      height: 218
+    spriteID: 941d8bb6a3352ef4f9a6f8039da64e29
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1936, y: 1134}
+  - name: mockup_Frame_34
+    originalName: 
+    pivot: {x: 0.30188683, y: 0.09174312}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2580
+      y: 1134
+      width: 636
+      height: 218
+    spriteID: 5d069ee87181b56458a8994af378eeda
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2580, y: 1134}
+  - name: mockup_Frame_35
+    originalName: 
+    pivot: {x: 0.30188683, y: 0.09174312}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3224
+      y: 1134
+      width: 636
+      height: 218
+    spriteID: e4daf0a4f3af89e47814acd6b810eba5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3224, y: 1134}
+  - name: mockup_Frame_36
+    originalName: 
+    pivot: {x: 0.30188683, y: 0.09174312}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1360
+      width: 636
+      height: 218
+    spriteID: 649f6d05cfbe4f049a5eb50f3a8797a2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1360}
+  - name: mockup_Frame_37
+    originalName: 
+    pivot: {x: 0.30188683, y: 0.09174312}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 648
+      y: 1360
+      width: 636
+      height: 218
+    spriteID: b5ac3669531872543b1253da8f17d4d1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 648, y: 1360}
+  - name: mockup_Frame_38
+    originalName: 
+    pivot: {x: 0.30188683, y: 0.09174312}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1292
+      y: 1360
+      width: 636
+      height: 218
+    spriteID: 0b9981926b2853843861e23c78bdf23f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1292, y: 1360}
+  - name: mockup_Frame_39
+    originalName: 
+    pivot: {x: 0.30188683, y: 0.09174312}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1936
+      y: 1360
+      width: 636
+      height: 218
+    spriteID: 2c44fe1310143ce49ad69a4f2e564736
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1936, y: 1360}
+  - name: mockup_Frame_40
+    originalName: 
+    pivot: {x: 0.30188683, y: 0.09174312}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2580
+      y: 1360
+      width: 636
+      height: 218
+    spriteID: 5c9b5a21dbc7e1d448a1d30df0da051d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2580, y: 1360}
+  - name: mockup_Frame_41
+    originalName: 
+    pivot: {x: 0.30188683, y: 0.09174312}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3224
+      y: 1360
+      width: 636
+      height: 218
+    spriteID: 26afe879bd8a9c4409dd395333dd4ad2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3224, y: 1360}
+  - name: mockup_Frame_42
+    originalName: 
+    pivot: {x: 0.30188683, y: 0.09174312}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1586
+      width: 636
+      height: 218
+    spriteID: d53059bef7babc74d9158ce068fc272c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1586}
+  - name: mockup_Frame_43
+    originalName: 
+    pivot: {x: 0.30188683, y: 0.09174312}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 648
+      y: 1586
+      width: 636
+      height: 218
+    spriteID: 94e71d71f130a2d46afaae4596a37d36
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 648, y: 1586}
+  - name: mockup_Frame_44
+    originalName: 
+    pivot: {x: 0.30188683, y: 0.09174312}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1292
+      y: 1586
+      width: 636
+      height: 218
+    spriteID: 7d81aaa54f7661247862c342caa253f5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1292, y: 1586}
+  - name: mockup_Frame_45
+    originalName: 
+    pivot: {x: 0.30188683, y: 0.09174312}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1936
+      y: 1586
+      width: 636
+      height: 218
+    spriteID: b989544c2dc077249beb95be3b43c0ec
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1936, y: 1586}
+  - name: mockup_Frame_46
+    originalName: 
+    pivot: {x: 0.30188683, y: 0.09174312}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2580
+      y: 1586
+      width: 636
+      height: 218
+    spriteID: e8ce7e46acfd1c446bf946bbc5606e77
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2580, y: 1586}
+  - name: mockup_Frame_47
+    originalName: 
+    pivot: {x: 0.30188683, y: 0.09174312}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3224
+      y: 1586
+      width: 636
+      height: 218
+    spriteID: 356b339744dc4fa43b4e90cd972427d3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3224, y: 1586}
+  - name: mockup_Frame_48
+    originalName: 
+    pivot: {x: 0.30188683, y: 0.09174312}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1812
+      width: 636
+      height: 218
+    spriteID: 28aefdf2401ebf8419088e18b276daf4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1812}
+  - name: mockup_Frame_49
+    originalName: 
+    pivot: {x: 0.30188683, y: 0.09174312}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 648
+      y: 1812
+      width: 636
+      height: 218
+    spriteID: 3917417d99600a147a7d7c4baf8d6bb8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 648, y: 1812}
+  - name: mockup_Frame_50
+    originalName: 
+    pivot: {x: 0.30188683, y: 0.09174312}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1292
+      y: 1812
+      width: 636
+      height: 218
+    spriteID: d6133aa6f72f3bf41a2bebbeebdf91e8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1292, y: 1812}
+  - name: mockup_Frame_51
+    originalName: 
+    pivot: {x: 0.30188683, y: 0.09174312}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1936
+      y: 1812
+      width: 636
+      height: 218
+    spriteID: fdc621e02ae572147a6707baf9f8c43c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1936, y: 1812}
+  - name: mockup_Frame_52
+    originalName: 
+    pivot: {x: 0.30188683, y: 0.09174312}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2580
+      y: 1812
+      width: 636
+      height: 218
+    spriteID: 6ad973dd47a87e84daeb527a05f74b02
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2580, y: 1812}
+  - name: mockup_Frame_53
+    originalName: 
+    pivot: {x: 0.30188683, y: 0.09174312}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3224
+      y: 1812
+      width: 636
+      height: 218
+    spriteID: 7c0b08f825a01e447b3b074e0bf81452
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3224, y: 1812}
+  - name: mockup_Frame_54
+    originalName: 
+    pivot: {x: 0.30188683, y: 0.09174312}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2038
+      width: 636
+      height: 218
+    spriteID: ef1f123ece510214f8c03107c7f48f72
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 2038}
+  - name: mockup_Frame_55
+    originalName: 
+    pivot: {x: 0.30188683, y: 0.09174312}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 648
+      y: 2038
+      width: 636
+      height: 218
+    spriteID: 1b6980985859e2f4db551bdb1c02400e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 648, y: 2038}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 984057079
+    name: mockup
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: mockup_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: -32
+        y: -20
+        width: 636
+        height: 218
+      spriteId: fcfcad93ae911e7428e798f5b628a61a
+    - name: mockup_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: -32
+        y: -20
+        width: 636
+        height: 218
+      spriteId: b60fe7c07f0b2364c8369dc7121be44b
+    - name: mockup_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: -32
+        y: -20
+        width: 636
+        height: 218
+      spriteId: a017f61b27b94a84397df060623d55dc
+    - name: mockup_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: -32
+        y: -20
+        width: 636
+        height: 218
+      spriteId: 35fd2cbb81d49ae4ba9ff257f8e82457
+    - name: mockup_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: -32
+        y: -20
+        width: 636
+        height: 218
+      spriteId: 3707d422be3be3449b100dbd1a84ae62
+    - name: mockup_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: -32
+        y: -20
+        width: 636
+        height: 218
+      spriteId: 9ffe0db45f0be9b448a7f1f95aa856eb
+    - name: mockup_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: -32
+        y: -20
+        width: 636
+        height: 218
+      spriteId: 8fd10edf12d66dc4cbfe870d2a606729
+    - name: mockup_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: -32
+        y: -20
+        width: 636
+        height: 218
+      spriteId: fdfef74212d0aac4d8f8b0b46cec1cf6
+    - name: mockup_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: -32
+        y: -20
+        width: 636
+        height: 218
+      spriteId: c6398471e053eaa478c129f2d54041a6
+    - name: mockup_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: -32
+        y: -20
+        width: 636
+        height: 218
+      spriteId: ad0bf25db8da6c5479e1342bf9ef05ff
+    - name: mockup_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: -32
+        y: -20
+        width: 636
+        height: 218
+      spriteId: 472bcdaaa65fbe447b4457abc59460bc
+    - name: mockup_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: -32
+        y: -20
+        width: 636
+        height: 218
+      spriteId: b52e10976034c0849902d978bdd27c42
+    - name: mockup_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: -32
+        y: -20
+        width: 636
+        height: 218
+      spriteId: 93648e6c9447eef4a8138b8bf24dbaa3
+    - name: mockup_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: -32
+        y: -20
+        width: 636
+        height: 218
+      spriteId: b140da53c388072429e4d10abc848ec2
+    - name: mockup_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: -32
+        y: -20
+        width: 636
+        height: 218
+      spriteId: a8ab055102ac32e47bc5d6dfbba95525
+    - name: mockup_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: -32
+        y: -20
+        width: 636
+        height: 218
+      spriteId: 9fcf85261eab1ad4fad45f9d806386b6
+    - name: mockup_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: -32
+        y: -20
+        width: 636
+        height: 218
+      spriteId: 42139e87033d43d49b2a9ddd2c71a8dd
+    - name: mockup_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: -32
+        y: -20
+        width: 636
+        height: 218
+      spriteId: 82005adba639fc844a9562b399367a4a
+    - name: mockup_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: -32
+        y: -20
+        width: 636
+        height: 218
+      spriteId: 11265a6a8c2739d428fb185a8c749cb9
+    - name: mockup_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: -32
+        y: -20
+        width: 636
+        height: 218
+      spriteId: 45668a8e11125c8428209fed4cd58ee6
+    - name: mockup_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: -32
+        y: -20
+        width: 636
+        height: 218
+      spriteId: a46d219c0f7f88d4fb24d61e6a13c440
+    - name: mockup_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: -32
+        y: -20
+        width: 636
+        height: 218
+      spriteId: 959763abc6c491f41a1d521073d07c0a
+    - name: mockup_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: -32
+        y: -20
+        width: 636
+        height: 218
+      spriteId: d9441fe9299ac3e438ae396368684ffc
+    - name: mockup_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: -32
+        y: -20
+        width: 636
+        height: 218
+      spriteId: cb4a434c8dfa43c49936c399f1231345
+    - name: mockup_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: -32
+        y: -20
+        width: 636
+        height: 218
+      spriteId: 051641cfd333fcf4e85103e9da038c27
+    - name: mockup_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: -32
+        y: -20
+        width: 636
+        height: 218
+      spriteId: 5d02d8fb71c9fae40939ee6bfafc47a6
+    - name: mockup_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: -32
+        y: -20
+        width: 636
+        height: 218
+      spriteId: b0804ef54c4550c48ba601fe7e5d019f
+    - name: mockup_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: -32
+        y: -20
+        width: 636
+        height: 218
+      spriteId: 4ffa577cd1af01f4c82930ac07f60b26
+    - name: mockup_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: -32
+        y: -20
+        width: 636
+        height: 218
+      spriteId: 049e25e2052ac6f4e9cd7520de37b980
+    - name: mockup_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: -32
+        y: -20
+        width: 636
+        height: 218
+      spriteId: d5e0053ee72554d4cbdbf1ae1d74542c
+    - name: mockup_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: -32
+        y: -20
+        width: 636
+        height: 218
+      spriteId: c977fe1e7d5f11e4989e29a6f21198b3
+    - name: mockup_Frame_31
+      frameIndex: 31
+      cellRect:
+        x: -32
+        y: -20
+        width: 636
+        height: 218
+      spriteId: 53fbeb7d6258d0b44a90d37b5bf74092
+    - name: mockup_Frame_32
+      frameIndex: 32
+      cellRect:
+        x: -32
+        y: -20
+        width: 636
+        height: 218
+      spriteId: 45be31e855d58564b8bb87f227b4a6c9
+    - name: mockup_Frame_33
+      frameIndex: 33
+      cellRect:
+        x: -32
+        y: -20
+        width: 636
+        height: 218
+      spriteId: 941d8bb6a3352ef4f9a6f8039da64e29
+    - name: mockup_Frame_34
+      frameIndex: 34
+      cellRect:
+        x: -32
+        y: -20
+        width: 636
+        height: 218
+      spriteId: 5d069ee87181b56458a8994af378eeda
+    - name: mockup_Frame_35
+      frameIndex: 35
+      cellRect:
+        x: -32
+        y: -20
+        width: 636
+        height: 218
+      spriteId: e4daf0a4f3af89e47814acd6b810eba5
+    - name: mockup_Frame_36
+      frameIndex: 36
+      cellRect:
+        x: -32
+        y: -20
+        width: 636
+        height: 218
+      spriteId: 649f6d05cfbe4f049a5eb50f3a8797a2
+    - name: mockup_Frame_37
+      frameIndex: 37
+      cellRect:
+        x: -32
+        y: -20
+        width: 636
+        height: 218
+      spriteId: b5ac3669531872543b1253da8f17d4d1
+    - name: mockup_Frame_38
+      frameIndex: 38
+      cellRect:
+        x: -32
+        y: -20
+        width: 636
+        height: 218
+      spriteId: 0b9981926b2853843861e23c78bdf23f
+    - name: mockup_Frame_39
+      frameIndex: 39
+      cellRect:
+        x: -32
+        y: -20
+        width: 636
+        height: 218
+      spriteId: 2c44fe1310143ce49ad69a4f2e564736
+    - name: mockup_Frame_40
+      frameIndex: 40
+      cellRect:
+        x: -32
+        y: -20
+        width: 636
+        height: 218
+      spriteId: 5c9b5a21dbc7e1d448a1d30df0da051d
+    - name: mockup_Frame_41
+      frameIndex: 41
+      cellRect:
+        x: -32
+        y: -20
+        width: 636
+        height: 218
+      spriteId: 26afe879bd8a9c4409dd395333dd4ad2
+    - name: mockup_Frame_42
+      frameIndex: 42
+      cellRect:
+        x: -32
+        y: -20
+        width: 636
+        height: 218
+      spriteId: d53059bef7babc74d9158ce068fc272c
+    - name: mockup_Frame_43
+      frameIndex: 43
+      cellRect:
+        x: -32
+        y: -20
+        width: 636
+        height: 218
+      spriteId: 94e71d71f130a2d46afaae4596a37d36
+    - name: mockup_Frame_44
+      frameIndex: 44
+      cellRect:
+        x: -32
+        y: -20
+        width: 636
+        height: 218
+      spriteId: 7d81aaa54f7661247862c342caa253f5
+    - name: mockup_Frame_45
+      frameIndex: 45
+      cellRect:
+        x: -32
+        y: -20
+        width: 636
+        height: 218
+      spriteId: b989544c2dc077249beb95be3b43c0ec
+    - name: mockup_Frame_46
+      frameIndex: 46
+      cellRect:
+        x: -32
+        y: -20
+        width: 636
+        height: 218
+      spriteId: e8ce7e46acfd1c446bf946bbc5606e77
+    - name: mockup_Frame_47
+      frameIndex: 47
+      cellRect:
+        x: -32
+        y: -20
+        width: 636
+        height: 218
+      spriteId: 356b339744dc4fa43b4e90cd972427d3
+    - name: mockup_Frame_48
+      frameIndex: 48
+      cellRect:
+        x: -32
+        y: -20
+        width: 636
+        height: 218
+      spriteId: 28aefdf2401ebf8419088e18b276daf4
+    - name: mockup_Frame_49
+      frameIndex: 49
+      cellRect:
+        x: -32
+        y: -20
+        width: 636
+        height: 218
+      spriteId: 3917417d99600a147a7d7c4baf8d6bb8
+    - name: mockup_Frame_50
+      frameIndex: 50
+      cellRect:
+        x: -32
+        y: -20
+        width: 636
+        height: 218
+      spriteId: d6133aa6f72f3bf41a2bebbeebdf91e8
+    - name: mockup_Frame_51
+      frameIndex: 51
+      cellRect:
+        x: -32
+        y: -20
+        width: 636
+        height: 218
+      spriteId: fdc621e02ae572147a6707baf9f8c43c
+    - name: mockup_Frame_52
+      frameIndex: 52
+      cellRect:
+        x: -32
+        y: -20
+        width: 636
+        height: 218
+      spriteId: 6ad973dd47a87e84daeb527a05f74b02
+    - name: mockup_Frame_53
+      frameIndex: 53
+      cellRect:
+        x: -32
+        y: -20
+        width: 636
+        height: 218
+      spriteId: 7c0b08f825a01e447b3b074e0bf81452
+    - name: mockup_Frame_54
+      frameIndex: 54
+      cellRect:
+        x: -32
+        y: -20
+        width: 636
+        height: 218
+      spriteId: ef1f123ece510214f8c03107c7f48f72
+    - name: mockup_Frame_55
+      frameIndex: 55
+      cellRect:
+        x: -32
+        y: -20
+        width: 636
+        height: 218
+      spriteId: 1b6980985859e2f4db551bdb1c02400e
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 320, y: 180}

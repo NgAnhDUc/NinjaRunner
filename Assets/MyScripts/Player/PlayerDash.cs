@@ -46,4 +46,9 @@ public class PlayerDash : MonoBehaviour
         this.dashAnim.SetBool("isDash", true);
         Invoke("SetFinishDashAnim", 0.06f);
     }
+    protected void SetFinishDashAnim()
+    {
+        this.dashAnim.SetBool("isDash", false);
+    }
+
 }

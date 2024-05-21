@@ -39,6 +39,7 @@ public class PlayerDash : MonoBehaviour
         {
             transform.Translate(Vector2.right * dashDistance);
             this.SetDashAnim();
+            count = 0; 
         }
     }
     protected void SetDashAnim()

@@ -37,7 +37,7 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             if (!onGround) return;
-            rig.gravityScale *= -1;//change gravity scale of rigibody
+            rig.gravityScale *= -1; //change gravity scale of rigibody
 
             Invoke("FlipPlayer", 0.2f);
         }

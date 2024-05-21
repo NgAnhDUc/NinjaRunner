@@ -9,7 +9,14 @@ public class PlayerMovement : MonoBehaviour
     public float jumpHeight = 5;
     public bool isFlip = false;
     public bool onGround;
+    public bool isRun = false;
+    public Animator playerAnim;
 
+    private void Awake()
+    {
+        this.playerAnim = GetComponent<Animator>();
+
+    }
     // Start is called before the first frame update
     void Start()
     {
@@ -20,6 +27,12 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (!isRun)
+        {
+            SetAnimIdle();
+            return;
+        }
+        SetAnimRun();
         transform.Translate(Vector3.right * speed*Time.deltaTime);
         if (Input.GetKeyDown(KeyCode.Space))
         {
@@ -50,5 +63,12 @@ public class PlayerMovement : MonoBehaviour
     {
         transform.Rotate(Vector3.right * -180f);
     }
-         
+    protected void SetAnimRun()
+    {
+        this.playerAnim.SetBool("isRun", true);
+    }
+    protected void SetAnimIdle()
+    {
+        this.playerAnim.SetBool("isRun", false);
+    }
 }

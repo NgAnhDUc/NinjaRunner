@@ -38,7 +38,7 @@ public class PlayerSmokeBomb : Spawner
         count = reloadTime;
         fillProcess.GetComponent<Image>().color = Color.green;
 
-        if (Input.GetKeyDown(KeyCode.C))
+        if (Input.GetKeyDown(KeyCode.X))
         {
             this.posisionSpawn = new Vector3(transform.position.x - 1.2f, transform.position.y , transform.position.z);
             this.SpawnPrefabs(prefab, parent, quatity, posisionSpawn);

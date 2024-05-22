@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7112199407873466694}
   - component: {fileID: 5054161720975294037}
   - component: {fileID: 6776640942258584862}
+  - component: {fileID: -2383250901628985499}
   m_Layer: 0
   m_Name: SmokeBomb
   m_TagString: Untagged
@@ -144,7 +145,7 @@ CircleCollider2D:
     serializedVersion: 2
     m_Bits: 4294967295
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
@@ -161,4 +162,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a919e82b3fe1f1e4c89e5eb36e3da015, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  count: 0
+  isBlast: 0
   rb: {fileID: 0}
+--- !u!249 &-2383250901628985499
+AreaEffector2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8936958702062387267}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGlobalAngle: 0
+  m_ForceAngle: 180
+  m_ForceMagnitude: 18
+  m_ForceVariation: 0
+  m_ForceTarget: 0
+  m_Drag: 0
+  m_AngularDrag: 0

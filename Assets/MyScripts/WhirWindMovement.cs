@@ -8,14 +8,13 @@ public class WhirWindMovement : MonoBehaviour
 {
     public float speed = 5f;
     public float count = 0f;
-    public bool isTrigger = false;
+    public bool isBlast = false;
 
     void Update()
     {
-        if (count > 2 || isTrigger ) return;
-
-
         count += Time.deltaTime;
+        if (isBlast) return;
+
         transform.Translate(Vector3.right * speed * Time.deltaTime);
 
         if (count >= 2) BlastWind();
@@ -23,23 +22,22 @@ public class WhirWindMovement : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        if (isBlast) return;
         if (collision.gameObject.tag == "Player")
         {
             BlastWind();
-            isTrigger = true;
         }
     }
 
     public void BlastWind()
     {
         transform.localScale *= 2;
-        StartCoroutine(DestroyGameObjectWithDelay());
+        isBlast = true;
+        Invoke("DestroyObject",1f);
     }
 
-    IEnumerator DestroyGameObjectWithDelay()
+    public void DestroyObject()
     {
-        yield return new WaitForSeconds(1.0f);
-
         Destroy(gameObject);
     }
 }

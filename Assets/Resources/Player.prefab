@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 4448801114218170923}
   - component: {fileID: 3559612390455126880}
   - component: {fileID: -8314452576203522241}
+  - component: {fileID: 6755375021294434018}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -191,7 +192,7 @@ MonoBehaviour:
   jumpHeight: 5
   isFlip: 0
   onGround: 0
-  isRun: 1
+  isRun: 0
   playerAnim: {fileID: 0}
 --- !u!114 &3559612390455126880
 MonoBehaviour:
@@ -232,6 +233,27 @@ MonoBehaviour:
   count: 0
   reloadTime: 5
   whirWindSlider: {fileID: 0}
+  fillProcess: {fileID: 0}
+--- !u!114 &6755375021294434018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3271920790232635725}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf67a5d29da6df1459a1f7b63eff6ec1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 8936958702062387267, guid: 461c23c0f8871734fbe5b2660eb41ae5, type: 3}
+  parent: {fileID: 0}
+  quatity: 1
+  posisionSpawn: {x: 0, y: 0, z: 0}
+  clone: {fileID: 0}
+  count: 0
+  reloadTime: 5
+  smokeBombSlider: {fileID: 0}
   fillProcess: {fileID: 0}
 --- !u!1 &5785471366208962814
 GameObject:

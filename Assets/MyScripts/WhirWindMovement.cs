@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class WhirWindMovement : MonoBehaviour
 {
-    public float speed = 5f;
+    public float speed = 10f;
     public float count = 0f;
     public bool isBlast = false;
 
@@ -20,7 +20,7 @@ public class WhirWindMovement : MonoBehaviour
         if (count >= 2) BlastWind();
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerExit2D(Collider2D collision)
     {
         if (isBlast) return;
         if (collision.gameObject.tag == "Player")

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using Photon.Pun;
 
 public class PlayerSmokeBomb : Spawner
 {
@@ -28,6 +29,7 @@ public class PlayerSmokeBomb : Spawner
 
     private void Update()
     {
+        if (!photonView.IsMine) return;
         count += Time.deltaTime;
         smokeBombSlider.value = count;
         if (count < reloadTime)
@@ -41,7 +43,7 @@ public class PlayerSmokeBomb : Spawner
         if (Input.GetKeyDown(KeyCode.X))
         {
             this.posisionSpawn = new Vector3(transform.position.x - 1.2f, transform.position.y , transform.position.z);
-            this.SpawnPrefabs(prefab, parent, quatity, posisionSpawn);
+            this.SpawnPrefabs(prefab, parent, quatity, posisionSpawn,prefab.name);
             count = 0;
         }
     }

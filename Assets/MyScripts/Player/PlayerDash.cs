@@ -2,8 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using Photon.Pun;
 
-public class PlayerDash : MonoBehaviour
+public class PlayerDash : MonoBehaviourPunCallbacks
 {
     public float dashDistance =3;
     public GameObject dashEffectGO;
@@ -24,6 +25,7 @@ public class PlayerDash : MonoBehaviour
     }
     void Update()
     {
+        if (!photonView.IsMine) return;
         count += Time.deltaTime;
         dashSlider.value = count;
         if (count < reloadTime)

@@ -28,6 +28,7 @@ public class PlayerWhirWind : Spawner
 
     private void Update()
     {
+        if (!photonView.IsMine) return;
         count += Time.deltaTime;
         whirWindSlider.value = count;
         if (count < reloadTime)
@@ -41,7 +42,7 @@ public class PlayerWhirWind : Spawner
         if (Input.GetKeyDown(KeyCode.Z))
         {
             this.posisionSpawn = new Vector3(transform.position.x + 1.2f, transform.position.y + 0.35f, transform.position.z);
-            this.SpawnPrefabs(prefab, parent, quatity, posisionSpawn);
+            this.SpawnPrefabs(prefab, parent, quatity, posisionSpawn,prefab.name);
             count = 0;
         }
     }

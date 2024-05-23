@@ -20,12 +20,13 @@ public class PlayerSpawner : Spawner
     private void Start()
     {
         Vector3 effectSpawmPos = new Vector3(posisionSpawn.x,posisionSpawn.y+1.28f,posisionSpawn.z);
-        this.SpawnPrefabs(this.effectSpawn, this.parent, this.quatity, effectSpawmPos);
+        string effectSpawmName = "Effects/EffectSpawn";
+        this.SpawnPrefabs(this.effectSpawn, this.parent, this.quatity, effectSpawmPos, effectSpawmName);
         Invoke("SpawnPlayer", 0);
         
     }
     protected void SpawnPlayer()
     {
-        this.SpawnPrefabs(this.prefab, this.parent, this.quatity, this.posisionSpawn);
+        this.SpawnPrefabs(this.prefab, this.parent, this.quatity, this.posisionSpawn,prefab.name);
     }
 }

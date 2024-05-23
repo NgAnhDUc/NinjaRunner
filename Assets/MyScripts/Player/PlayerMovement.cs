@@ -9,7 +9,7 @@ public class PlayerMovement : MonoBehaviour
     public float jumpHeight = 5;
     public bool isFlip = false;
     public bool onGround;
-    public bool isRun = false;
+    public bool isRun = true;
     public Animator playerAnim;
 
     private void Awake()

@@ -193,7 +193,7 @@ MonoBehaviour:
   jumpHeight: 5
   isFlip: 0
   onGround: 0
-  isRun: 0
+  isRun: 1
   playerAnim: {fileID: 0}
 --- !u!114 &3559612390455126880
 MonoBehaviour:

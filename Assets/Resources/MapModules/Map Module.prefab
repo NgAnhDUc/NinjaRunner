@@ -291,7 +291,6 @@ MonoBehaviour:
   quatity: 1
   posisionSpawn: {x: 0, y: 0, z: 0}
   clone: {fileID: 0}
-  point: 140
   isSpawn: 0
 --- !u!1 &2438015628728505637
 GameObject:
@@ -6397,6 +6396,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1977388656813700911}
   - component: {fileID: 1885619583530071181}
+  - component: {fileID: 7917352871085424283}
+  - component: {fileID: 5049075320468665302}
   m_Layer: 0
   m_Name: Map Module
   m_TagString: Untagged
@@ -6434,6 +6435,45 @@ Grid:
   m_CellGap: {x: 0, y: 0, z: 0}
   m_CellLayout: 0
   m_CellSwizzle: 0
+--- !u!114 &7917352871085424283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5489267953459280527}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents:
+  - {fileID: 5049075320468665302}
+  sceneViewId: 0
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
+--- !u!114 &5049075320468665302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5489267953459280527}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1 &5952916902880204557
 GameObject:
   m_ObjectHideFlags: 0

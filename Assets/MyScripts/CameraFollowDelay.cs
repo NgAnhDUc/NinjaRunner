@@ -1,8 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Photon.Pun;
 
-public class CameraFollowDelay : MonoBehaviour
+public class CameraFollowDelay : MonoBehaviourPunCallbacks
 {
     protected GameObject[] playerTransforms;
     public Transform playerTransform;
@@ -29,5 +30,16 @@ public class CameraFollowDelay : MonoBehaviour
     {
         this.playerTransforms = GameObject.FindGameObjectsWithTag("Player");
         this.playerTransform = playerTransforms[0].transform;
+        if (PhotonNetwork.IsConnected)
+        {
+            foreach(GameObject player in playerTransforms)
+            {
+                if (player.GetPhotonView().IsMine)
+                {
+                    this.playerTransform = player.transform;
+                }
+                
+            }
+        }
     }
 }

@@ -28,6 +28,7 @@ public class PlayerResistance : Spawner
     // Update is called once per frame
     void Update()
     {
+        if (!photonView.IsMine) return;
         count += Time.deltaTime;
         resisSlider.value = count;
         if (count < reloadTime)
@@ -41,7 +42,7 @@ public class PlayerResistance : Spawner
         if (Input.GetKeyDown(KeyCode.C))
         {
             this.posisionSpawn = new Vector3(transform.position.x + 0.1f,transform.position.y + 0.5f,transform.position.z);
-            this.SpawnPrefabs(prefab, parent, quatity, posisionSpawn);
+            this.SpawnPrefabs(prefab, parent, quatity, posisionSpawn, prefab.name);
             count = 0;
         }
     }

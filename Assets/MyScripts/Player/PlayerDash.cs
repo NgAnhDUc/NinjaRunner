@@ -25,7 +25,7 @@ public class PlayerDash : MonoBehaviourPunCallbacks
     }
     void Update()
     {
-        if (!photonView.IsMine) return;
+        if (!photonView.IsMine && PhotonNetwork.IsConnected) return;
         count += Time.deltaTime;
         dashSlider.value = count;
         if (count < reloadTime)

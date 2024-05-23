@@ -28,7 +28,7 @@ public class PlayerMovement : MonoBehaviourPunCallbacks
     // Update is called once per frame
     void Update()
     {
-        if (!photonView.IsMine) return;
+        if (!photonView.IsMine && PhotonNetwork.IsConnected) return;
         if (!isRun)
         {
             SetAnimIdle();

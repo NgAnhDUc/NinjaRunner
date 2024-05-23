@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using Photon.Pun;
 
 public class PlayerWhirWind : Spawner
 {
@@ -28,7 +29,7 @@ public class PlayerWhirWind : Spawner
 
     private void Update()
     {
-        if (!photonView.IsMine) return;
+        if (!photonView.IsMine && PhotonNetwork.IsConnected) return;
         count += Time.deltaTime;
         whirWindSlider.value = count;
         if (count < reloadTime)

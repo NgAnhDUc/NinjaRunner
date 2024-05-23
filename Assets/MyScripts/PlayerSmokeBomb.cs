@@ -29,7 +29,7 @@ public class PlayerSmokeBomb : Spawner
 
     private void Update()
     {
-        if (!photonView.IsMine) return;
+        if (!photonView.IsMine && PhotonNetwork.IsConnected) return;
         count += Time.deltaTime;
         smokeBombSlider.value = count;
         if (count < reloadTime)

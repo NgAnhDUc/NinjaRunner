@@ -23,7 +23,8 @@ public class SpawnModuleMap : Spawner
         if (collision.gameObject.tag == "Player")
         {
             this.posisionSpawn = new Vector3(transform.position.x + 100f, 0, 0);
-            this.SpawnPrefabs(prefab, parent, quatity, posisionSpawn);
+            string name = "MapModules/Map Module";
+            this.SpawnPrefabs(prefab, parent, quatity, posisionSpawn,name);
 
             isSpawn = true;
         }

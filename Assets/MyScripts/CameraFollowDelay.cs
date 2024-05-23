@@ -9,7 +9,7 @@ public class CameraFollowDelay : MonoBehaviourPunCallbacks
     public Transform playerTransform;
     public float smoothSpeed = 0.01f;
     public float delayDistance = 5.0f;
-    public float offset = 8f; // distance offset camera to player
+    public float offset = 6f; // distance offset camera to player
 
     private void Start()
     {

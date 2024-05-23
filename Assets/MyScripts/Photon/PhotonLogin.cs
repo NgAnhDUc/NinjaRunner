@@ -19,4 +19,9 @@ public class PhotonLogin :MonoBehaviourPunCallbacks
         PhotonNetwork.LocalPlayer.NickName = nickName.text;
         PhotonNetwork.ConnectUsingSettings();
     }
+
+    public override void OnConnectedToMaster()
+    {
+        PhotonNetwork.JoinLobby();
+    }
 }

@@ -20,12 +20,12 @@ public class WhirWindMovement : MonoBehaviour
         if (count >= 2) BlastWind();
     }
 
-    private void OnTriggerExit2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
         if (isBlast) return;
         if (collision.gameObject.tag == "Player")
         {
-            BlastWind();
+            Invoke("BlastWind",1);
         }
     }
 

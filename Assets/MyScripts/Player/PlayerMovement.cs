@@ -14,6 +14,7 @@ public class PlayerMovement : MonoBehaviourPunCallbacks,IPunObservable
     public Animator playerAnim;
     public Vector3 smoothPos;
     float gravityScaleOther;
+    public bool isFlipOther = false;
     private void Awake()
     {
         this.playerAnim = GetComponent<Animator>();
@@ -61,6 +62,7 @@ public class PlayerMovement : MonoBehaviourPunCallbacks,IPunObservable
         if (Input.GetKeyDown(KeyCode.Space))
         {
             if (!onGround) return;
+            isFlip = true;
             rig.gravityScale *= -1; //change gravity scale of rigibody
             Invoke("FlipPlayer", 0.2f);
         }
@@ -69,11 +71,7 @@ public class PlayerMovement : MonoBehaviourPunCallbacks,IPunObservable
     {
         transform.position = Vector3.Lerp(transform.position, smoothPos, Time.deltaTime * 10);
         if(rig.gravityScale != gravityScaleOther)
-        {
-            rig.gravityScale = gravityScaleOther;
-            isFlip = true;
-        }
-        if (isFlip)
+        if (isFlipOther)
         {
             Invoke("FlipPlayer", 0.2f);
         }
@@ -115,11 +113,12 @@ public class PlayerMovement : MonoBehaviourPunCallbacks,IPunObservable
         {
             stream.SendNext(transform.position);
             stream.SendNext(GetComponent<Rigidbody2D>().gravityScale);
+            stream.SendNext(this.isFlip);
             
         }else if (stream.IsReading)
         {
             this.smoothPos =(Vector3) stream.ReceiveNext();
-            this.gravityScaleOther = (float) stream.ReceiveNext();
+            this.isFlipOther = (bool) stream.ReceiveNext();
         }
     }
 }

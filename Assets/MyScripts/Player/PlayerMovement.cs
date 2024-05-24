@@ -13,7 +13,7 @@ public class PlayerMovement : MonoBehaviourPunCallbacks,IPunObservable
     public bool isRun = true;
     public Animator playerAnim;
     public Vector3 smoothPos;
-
+    float gravityScaleOther;
     private void Awake()
     {
         this.playerAnim = GetComponent<Animator>();
@@ -61,6 +61,7 @@ public class PlayerMovement : MonoBehaviourPunCallbacks,IPunObservable
     protected void OtherPlayerMovement()
     {
         transform.position = Vector3.Lerp(transform.position, smoothPos, Time.deltaTime * 10);
+        rig.gravityScale = gravityScaleOther;
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -96,9 +97,11 @@ public class PlayerMovement : MonoBehaviourPunCallbacks,IPunObservable
         if (stream.IsWriting)
         {
             stream.SendNext(transform.position);
+            stream.SendNext(rig.gravityScale);
         }else if (stream.IsReading)
         {
             this.smoothPos =(Vector3) stream.ReceiveNext();
+            this.gravityScaleOther = (float) stream.ReceiveNext();
         }
     }
 }

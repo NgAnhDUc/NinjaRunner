@@ -54,21 +54,20 @@ public class PlayerMovement : MonoBehaviourPunCallbacks,IPunObservable
         {
             if (!onGround) return;
             rig.gravityScale *= -1; //change gravity scale of rigibody
-
             Invoke("FlipPlayer", 0.2f);
         }
     }
     protected void OtherPlayerMovement()
     {
         transform.position = Vector3.Lerp(transform.position, smoothPos, Time.deltaTime * 10);
-        rig.gravityScale = gravityScaleOther;
-        if(rig.gravityScale > 0)
+        if(rig.gravityScale != gravityScaleOther)
         {
-            transform.Rotate(new Vector3(0,0,0));
+            rig.gravityScale = gravityScaleOther;
+            isFlip = true;
         }
-        else
+        if (isFlip)
         {
-            transform.Rotate(new Vector3(-180, 0, 0));
+            FlipPlayer();
         }
 
     }
@@ -91,6 +90,7 @@ public class PlayerMovement : MonoBehaviourPunCallbacks,IPunObservable
     public void FlipPlayer()
     {
         transform.Rotate(Vector3.right * -180f);
+        this.isFlip = false;
     }
     protected void SetAnimRun()
     {

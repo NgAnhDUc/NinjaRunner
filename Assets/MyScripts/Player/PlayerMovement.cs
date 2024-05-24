@@ -106,7 +106,7 @@ public class PlayerMovement : MonoBehaviourPunCallbacks,IPunObservable
         if (stream.IsWriting)
         {
             stream.SendNext(transform.position);
-            stream.SendNext(rig.gravityScale);
+            stream.SendNext(GetComponent<Rigidbody2D>().gravityScale);
             
         }else if (stream.IsReading)
         {

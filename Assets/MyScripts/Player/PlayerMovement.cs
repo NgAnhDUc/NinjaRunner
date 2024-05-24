@@ -62,6 +62,15 @@ public class PlayerMovement : MonoBehaviourPunCallbacks,IPunObservable
     {
         transform.position = Vector3.Lerp(transform.position, smoothPos, Time.deltaTime * 10);
         rig.gravityScale = gravityScaleOther;
+        if(rig.gravityScale > 0)
+        {
+            transform.Rotate(new Vector3(0,0,0));
+        }
+        else
+        {
+            transform.Rotate(new Vector3(-180, 0, 0));
+        }
+
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -98,6 +107,7 @@ public class PlayerMovement : MonoBehaviourPunCallbacks,IPunObservable
         {
             stream.SendNext(transform.position);
             stream.SendNext(rig.gravityScale);
+            
         }else if (stream.IsReading)
         {
             this.smoothPos =(Vector3) stream.ReceiveNext();

@@ -67,7 +67,7 @@ public class PlayerMovement : MonoBehaviourPunCallbacks,IPunObservable
         }
         if (isFlip)
         {
-            FlipPlayer();
+            Invoke("FlipPlayer", 0.2f);
         }
 
     }

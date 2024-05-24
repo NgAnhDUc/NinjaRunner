@@ -12,6 +12,7 @@ public class PlayerMovement : MonoBehaviourPunCallbacks,IPunObservable
     public bool onGround;
     public bool isRun = true;
     public Animator playerAnim;
+    public Vector3 smoothPos;
 
     private void Awake()
     {
@@ -28,14 +29,27 @@ public class PlayerMovement : MonoBehaviourPunCallbacks,IPunObservable
     // Update is called once per frame
     void Update()
     {
-        if (!photonView.IsMine && PhotonNetwork.IsConnected) return;
+        if (photonView.IsMine)
+        {
+            isMinePlayerMovement();
+        }
+        else
+        {
+            OtherPlayerMovement();
+        }
+
+        
+    }
+
+    protected void isMinePlayerMovement()
+    {
         if (!isRun)
         {
             SetAnimIdle();
             return;
         }
         SetAnimRun();
-        transform.Translate(Vector3.right * speed*Time.deltaTime);
+        transform.Translate(Vector3.right * speed * Time.deltaTime);
         if (Input.GetKeyDown(KeyCode.Space))
         {
             if (!onGround) return;
@@ -44,7 +58,10 @@ public class PlayerMovement : MonoBehaviourPunCallbacks,IPunObservable
             Invoke("FlipPlayer", 0.2f);
         }
     }
-
+    protected void OtherPlayerMovement()
+    {
+        transform.position = Vector3.Lerp(transform.position, smoothPos, Time.deltaTime * 10);
+    }
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if(collision.gameObject.tag == "Ground")
@@ -79,10 +96,9 @@ public class PlayerMovement : MonoBehaviourPunCallbacks,IPunObservable
         if (stream.IsWriting)
         {
             stream.SendNext(transform.position);
-        }
-        if (stream.IsReading)
+        }else if (stream.IsReading)
         {
-            stream.ReceiveNext();
+            this.smoothPos =(Vector3) stream.ReceiveNext();
         }
     }
 }

@@ -70,7 +70,7 @@ public class PlayerMovement : MonoBehaviourPunCallbacks,IPunObservable
     protected void OtherPlayerMovement()
     {
         transform.position = Vector3.Lerp(transform.position, smoothPos, Time.deltaTime * 10);
-        if(rig.gravityScale != gravityScaleOther)
+        rig.gravityScale = gravityScaleOther;
         if (isFlipOther)
         {
             Invoke("FlipPlayer", 0.2f);
@@ -118,6 +118,7 @@ public class PlayerMovement : MonoBehaviourPunCallbacks,IPunObservable
         }else if (stream.IsReading)
         {
             this.smoothPos =(Vector3) stream.ReceiveNext();
+            this.gravityScaleOther =(float) stream.ReceiveNext();
             this.isFlipOther = (bool) stream.ReceiveNext();
         }
     }

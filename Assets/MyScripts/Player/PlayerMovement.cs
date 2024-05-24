@@ -29,14 +29,22 @@ public class PlayerMovement : MonoBehaviourPunCallbacks,IPunObservable
     // Update is called once per frame
     void Update()
     {
-        if (photonView.IsMine)
+        if (PhotonNetwork.IsConnected)
         {
-            isMinePlayerMovement();
+            if (photonView.IsMine)
+            {
+                isMinePlayerMovement();
+            }
+            else
+            {
+                OtherPlayerMovement();
+            }
         }
         else
         {
-            OtherPlayerMovement();
+            isMinePlayerMovement();
         }
+        
 
         
     }

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Photon.Pun;
 
-public class PlayerMovement : MonoBehaviourPunCallbacks
+public class PlayerMovement : MonoBehaviourPunCallbacks,IPunObservable
 {
     public float speed =5;
     public Rigidbody2D rig;
@@ -72,5 +72,17 @@ public class PlayerMovement : MonoBehaviourPunCallbacks
     protected void SetAnimIdle()
     {
         this.playerAnim.SetBool("isRun", false);
+    }
+
+    public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)
+    {
+        if (stream.IsWriting)
+        {
+            stream.SendNext(transform.position);
+        }
+        if (stream.IsReading)
+        {
+            stream.ReceiveNext();
+        }
     }
 }
